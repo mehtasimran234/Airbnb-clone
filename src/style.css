@@ -97,3 +97,13 @@ section {
   display: flex;
   align-items: center;
 }
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}

@@ -11,6 +11,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+}
+
 .container {
   width: 550px;
   height: 100%;
@@ -44,4 +52,48 @@ section {
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
+}
+
+.cards-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.card--container {
+  width: 176px;
+  font-size: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 10px;
+}
+
+.card--price {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
 }
